@@ -1,0 +1,26 @@
+in package.json, add the following
+/* ,
+  "homepage": "https://post-war.github.io/inc-hist" */
+
+  in settings.json
+
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+
+
+-- github page
+The step below is important!
+
+If you skip it, your app will not deploy correctly.
+
+Open your package.json and add a homepage field for your project:
+
+  "homepage": "https://post-war.github.io/inc-hist",
+
+ -- - --- - - - 
+
+ npm run build
+
+ ----------
+
+ serve -s build
+  - - -------

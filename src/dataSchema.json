@@ -1,0 +1,61 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "Incidents",
+    "type": "array",
+    "items": {
+    "type": "object",
+        "properties": {
+            "JobName": {
+                "type": "string"
+            },
+            "IncidentID": {
+                "type": "string"
+            },
+            "WorkDetails": {
+                "type": "string",
+                "description": "Work details merged",
+                "maxLength": 32767
+            },
+            "Notes": {
+                "type": "string"
+            },
+            "Summary": {
+                "type": "string"
+            },
+            "ReportedDate": {
+                "type": "string"
+            },
+            "ResolvedDate": {
+                "type": "string"
+            },
+            "Resolution": {
+                "type": "string"
+            },
+            "SubmitDate": {
+                "type": "string"
+            },
+            "SubmitterName": {
+                "type": "string"
+            },
+            "Submitter": {
+                "type": "string"
+            },
+            "Status": {
+                "type": "string"
+            },
+            "Assignee": {
+                "type": "string"
+            },
+            "AssignedGroup": {
+                "type": "string"
+            },
+            "MQ": {
+                "type": "string"
+            }
+        },   
+        "required": [
+            "JobName",
+            "IncidentID"
+        ]  
+    }
+}
